@@ -8,9 +8,9 @@
 
 `docker run --name nginx-balancer -d -p 8080:80 nginx-balancer`
 
-donde indicaremos
-**run** para correr una imagen
-**--name nginx-balancer** para indicar un nombre a nuestro contenedor, en este caso "nginx-balancer"
-**-d** detach, para que el contenedor corra en 2do plano
-**-p localPort:containerPort** para indicar que puerto local y del contenedor vamos a mapear
-**nginx-balancer** nombre de la imagen que buildeamos anteriormente
+donde indicaremos:<br>
+**run** para correr una imagen <br>
+**--name nginx-balancer** para indicar un nombre a nuestro contenedor, en este caso "nginx-balancer" <br>
+**-d** detach, para que el contenedor corra en 2do plano <br>
+**-p localPort:containerPort** para indicar que puerto local y del contenedor vamos a mapear<br>
+**nginx-balancer** nombre de la imagen que buildeamos anteriormente<br>
